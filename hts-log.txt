@@ -1,0 +1,30 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 23 Aug 2023 13:04:55 at http://templates.thememodern.com/amwal/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "fr, en, *" http://templates.thememodern.com/amwal/index.html -O1 "C:\Mes Sites Web\nehemie05" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+13:13:23	Warning: 	file not stored in cache due to bogus state (broken size, expected 959712 got 531297): templates.thememodern.com/amwal/images/bg-content/cb-h5.jpg
+13:19:55	Error: 	"Forbidden" (403) at link templates.thememodern.com/amwal/switcher/colors/ (from templates.thememodern.com/amwal/index.html)
+13:30:23	Warning: 	file not stored in cache due to bogus state (broken size, expected 182057 got 150929): templates.thememodern.com/amwal/images/About/2.jpg
+13:30:52	Warning: 	file not stored in cache due to bogus state (broken size, expected 1523567 got 439953): templates.thememodern.com/amwal/images/Content/cb-h5.png
+13:40:59	Error: 	"Not Found" (404) at link templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.eot (from templates.thememodern.com/amwal/css/bootstrap.css)
+13:40:59	Error: 	"Not Found" (404) at link templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.eot? (from templates.thememodern.com/amwal/css/bootstrap.css)
+13:40:59	Error: 	"Not Found" (404) at link templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.woff2 (from templates.thememodern.com/amwal/css/bootstrap.css)
+13:40:59	Error: 	"Not Found" (404) at link templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.woff (from templates.thememodern.com/amwal/css/bootstrap.css)
+13:40:59	Error: 	"Not Found" (404) at link templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.ttf (from templates.thememodern.com/amwal/css/bootstrap.css)
+13:40:59	Error: 	"Not Found" (404) at link templates.thememodern.com/amwal/fonts/glyphicons-halflings-regular.svg (from templates.thememodern.com/amwal/css/bootstrap.css)
+13:41:00	Warning: 	File not parsed, looks like binary: templates.thememodern.com/amwal/revolution/css/openhand.cur
+13:41:00	Warning: 	File not parsed, looks like binary: templates.thememodern.com/amwal/revolution/css/closedhand.cur
+13:41:00	Error: 	"Not Found" (404) at link templates.thememodern.com/images/loader.gif (from templates.thememodern.com/amwal/style.css)
+13:41:00	Warning: 	Retry after error -4 (Incorrect length (531297 Bytes, 959712 expected)) at link templates.thememodern.com/amwal/images/bg-content/cb-h5.jpg (from templates.thememodern.com/amwal/style.css)
+13:41:00	Warning: 	Retry after error -4 (Incorrect length (439953 Bytes, 1523567 expected)) at link templates.thememodern.com/amwal/images/Content/cb-h5.png (from templates.thememodern.com/amwal/index_5.html)
+13:41:00	Warning: 	Retry after error -4 (Incorrect length (150929 Bytes, 182057 expected)) at link templates.thememodern.com/amwal/images/About/2.jpg (from templates.thememodern.com/amwal/index_6.html)
+13:41:19	Error: 	"Not Found" (404) at link templates.thememodern.com/amwal/team_single.html (from templates.thememodern.com/amwal/team_2.html)
+13:41:19	Error: 	"Not Found" (404) at link templates.thememodern.com/amwal/shop-single.html (from templates.thememodern.com/amwal/shop.html)
+13:41:19	Error: 	"Not Found" (404) at link templates.thememodern.com/amwal/shop_single.html (from templates.thememodern.com/amwal/cart.html)
+
+HTTrack Website Copier/3.49-2 mirror complete in 37 minutes 9 seconds : 393 links scanned, 377 files written (55822573 bytes overall) [54557916 bytes received at 24476 bytes/sec], 1774079 bytes transferred using HTTP compression in 62 files, ratio 22%, 1.8 requests per connection
+(11 errors, 8 warnings, 0 messages)
