@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	
-<!-- Mirrored from templates.thememodern.com/amwal/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Aug 2023 12:40:59 GMT -->
 <head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,7 +39,7 @@
 			<nav id="menu">
 				<ul>
 					<li class="active">
-						<a href="index_10.html">Accueil</a>
+						<a href="index.html">Accueil</a>
 					</li>
 					<li><a href="company_history.html">Association</a>
 						<ul >
@@ -120,7 +119,7 @@
 								<nav>
 									<ul class="navi-level-1 active-subcolor">
 										<li class="active">
-											<a href="index_10.html">Accueil</a>
+											<a href="index.html">Accueil</a>
 										</li>
 										<li><a href="company_history.html">Association</a>
 											<ul class="navi-level-2">
@@ -229,24 +228,24 @@
 							</div>
 						</div>
 						<div class="form-contact-warp">
-							<form name="contactform" method="post" action="http://templates.thememodern.com/amwal/send_form_email.php">
+							<form name="contactform" method="post" action="form.php">
 								<div class="col-md-4">
-									<input type="text" class="form-control" name="first_name" placeholder="Nom">
+									<input type="text" class="form-control" id="name" name="name" placeholder="Nom">
 								</div>
 								<div class="col-md-4">
-									<input type="text" class="form-control" name="email" placeholder="Email">
+									<input type="text" class="form-control" id="email" name="email" placeholder="Email">
 								</div>
 								<div class="col-md-4">
-									<input type="text" class="form-control" name="subject" placeholder="Sujet">
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet">
 								</div>
 								<div class="col-md-12">
 									<div class="form-group">
-										<textarea name="comments" class="form-control" rows="5" placeholder="Comment"></textarea>
+										<textarea name="comments" id="comments" class="form-control" rows="5" placeholder="Commentaire"></textarea>
 									</div>
 								</div>
 								<div class="col-md-12">
 
-									<button type="submit" class="btn-main-color"><i class="fa fa-paper-plane" aria-hidden="true"></i> Soumettre</button>
+									<button type="submit" class="btn-main-color"><i class="fa fa-paper-plane" aria-hidden="true"></i> Envoyez</button>
 
 								</div>
 							</form>
