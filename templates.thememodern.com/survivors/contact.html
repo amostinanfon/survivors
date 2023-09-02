@@ -174,7 +174,7 @@
 			
 			<section class="no-padding sh-contact">
 				<div class="sub-header ">
-					<span>CONNECTONS NOUS</span>
+					<span>CONNECTONS-NOUS</span>
 					<h3></h3>
 					<ol class="breadcrumb">
  						<li>
@@ -193,7 +193,7 @@
 						<div class="col-md-4">
 							<div class="iconbox-inline">
 								<span class="icon icon-location2"></span>
-								<h4>Sieège Social</h4>
+								<h4>Siège Social</h4>
 								<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim adesg ens minim veniam.</p>
 							</div>
 						</div>
@@ -228,25 +228,30 @@
 							</div>
 						</div>
 						<div class="form-contact-warp">
-							<form name="contactform" method="post" action="form.php">
+							<form method="post" action="form.php">
 								<div class="col-md-4">
-									<input type="text" class="form-control" id="name" name="name" placeholder="Nom">
+									<input type="text" class="form-control" id="name" name="name" placeholder="Nom" required autocomplete="off">
 								</div>
 								<div class="col-md-4">
-									<input type="text" class="form-control" id="email" name="email" placeholder="Email">
+									<input type="email" class="form-control" id="email" name="email" placeholder="Email" required autocomplete="off">
 								</div>
+<!--								<div class="col-md-4">-->
+<!--									<input type="file" class="form-control" id="profile" name="profile" accept="image/*,.pdf" required>-->
+<!--								</div>-->
 								<div class="col-md-4">
-									<input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet">
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet" required autocomplete="off">
 								</div>
+
 								<div class="col-md-12">
 									<div class="form-group">
-										<textarea name="comments" id="comments" class="form-control" rows="5" placeholder="Commentaire"></textarea>
+										<textarea name="comments" id="comments" class="form-control" rows="5" placeholder="Commentaire" required autocomplete="off"></textarea>
 									</div>
 								</div>
 								<div class="col-md-12">
-
-									<button type="submit" class="btn-main-color"><i class="fa fa-paper-plane" aria-hidden="true"></i> Envoyez</button>
-
+									<button type="submit" class="btn-main-color" name="envoyer"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Envoyez </button>
+								</div>
+								<div class="col-md-0">
+									<input type="checkbox" class="form-control" id="" name="subject" required >
 								</div>
 							</form>
 						</div>
