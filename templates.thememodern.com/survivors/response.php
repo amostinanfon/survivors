@@ -204,47 +204,47 @@
                     <div class="row">
                         <div class="col-md-6">
                             <ul class="list-check-icon">
-                                <li>Your bones don't break.</li>
-                                <li>Your cells react to bacteria.</li>
-                                <li>you and I react the excel.</li>
+                                <li>Verification des informations.</li>
+                                <li>Verification de votre profil.</li>
+                                <li>Ceration de vos identifiants</li>
                             </ul>
                         </div>
                         <div class="col-md-6">
-                            <ul class="list-check-icon">
-                                <li>Your bones don't break.</li>
-                                <li>Your cells react to bacteria.</li>
-                                <li>you and I react the excel.</li>
+                        <ul class="list-check-icon">
+                                <li>Verification des informations.</li>
+                                <li>Verification de votre profil.</li>
+                                <li>Ceration de vos identifiants</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <img src="images/Content/career1.png" class="img-responsive" alt="Image">
+                    <img src="./images/logo-survivor.png" class="img-responsive" alt="Image">
                 </div>
             </div>
         </div>
     </section>
-    <!-- /Why Us -->
-    <!-- /job availabel -->
-    <!-- <section class="bg-subcr-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="subcribe-warp">
-                        <p class="sub-text-subcri">Newsletter for recieve </p>
-                        <form class="form-inline form-subcri">
-                            <div class="form-group">
-                                <label for="exampleInputName2"><small>our <span> latest company</span>updates</small></label>
-                            </div>
-                            <button type="submit" class="btn-subcrib"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <!-- /Subcribe -->
+    
 
+    <section class="bg-subcr-1">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<div class="subcribe-warp">
+								<p class="sub-text-subcri">Contactez-nous</p>
+								<form class="form-inline form-subcri">
+								  <div class="form-group">
+								    <label for="exampleInputName2"><small>Nos <span> informations</span> utiles</small></label>
+								    <input type="text" class="form-control" id="exampleInputName2" placeholder="L'AVENTURE COMMENCE ICI">
+								  </div>
+								  <button type="submit" class="btn-subcrib"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+            
     <!-- Footer -->
     <footer class="f-bg-dark">
         <div class="container">
@@ -255,7 +255,9 @@
                             <h4>Au Sujet de Survivors</h4>
                             <span class="bottom-title"></span>
                         </div>
-                        <p>The lysine contingency - it's intended to prevent the spread of the animals is case they ever got off the island. Dr. Wu inserted a gene that makes.</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus a, iusto recusandae nobis eveniet amet totam! Quam laboriosam iure culpa aliquid eius veniam. Consectetur tempora harum odio aspernatur rerum?
+                        </p>
                         <ul class="widget widget-footer widget-footer-social-1">
                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
