@@ -48,7 +48,7 @@
 
                     <li><a href="company_history.html" ><span>Historique</span></a>
                     </li>
-                    <li><a href="about_2.html" ><span>Qui sommes-nous ?</span></a>
+                    <li><a href="about.html" ><span>Qui sommes-nous ?</span></a>
                     </li>
                 </ul>
             </li>
@@ -74,11 +74,11 @@
                     </li>
 
                     <li >
-                        <a  href="partners_2.html">Partenaires</a>
+                        <a  href="partners.html">Partenaires</a>
                     </li>
                 </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
     <!-- /Mobile Menu -->
@@ -90,7 +90,7 @@
                         <div class="topbar-home2">
                             <div class="tb-contact tb-iconbox">
                                 <ul>
-                                    <li><a href="contact.html"><i class="fa fa-map-marker" aria-hidden="true"></i> BATCHENGA, REGION DU CENTRE, CMR</a></li>
+                                    <li><a href="contact.php"><i class="fa fa-map-marker" aria-hidden="true"></i> BATCHENGA, REGION DU CENTRE, CMR</a></li>
                                     <li><a href="mailto:amostinanfon17@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> amostinanfon17@gmail.com</a></li>
                                     <li><a href="tel:00237694291173"><i class="fa fa-phone" aria-hidden="true"></i> 00237694291173</a></li>
                                 </ul>
@@ -149,18 +149,18 @@
                                         <a href="#">Pages</a>
                                         <ul class="navi-level-2">
 
-                                            <li ><a  href="team_2.html">Notre Equipe</a>
+                                            <li ><a  href="team.html">Notre Equipe</a>
 
                                             </li>
-                                            <li ><a  href="testimonials_2.html">Temoignage</a>
+                                            <li ><a  href="testimonials.html">Temoignage</a>
 
                                             </li>
 
-                                            <li ><a  href="partners_2.html">Partenaires</a>
+                                            <li ><a  href="partners.html">Partenaires</a>
                                             </li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
                                 </ul>
                             </nav>
 
@@ -256,13 +256,13 @@
                             <span class="bottom-title"></span>
                         </div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus a, iusto recusandae nobis eveniet amet totam! Quam laboriosam iure culpa aliquid eius veniam. Consectetur tempora harum odio aspernatur rerum?
+                            Nous vivons dans un environnement où de plus
+							en plus de jeunes sont sans issues par rapport à leurs avenir.
                         </p>
                         <ul class="widget widget-footer widget-footer-social-1">
                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+                            
                         </ul>
                     </div>
                 </div>
@@ -290,12 +290,11 @@
                             <span class="bottom-title"></span>
                         </div>
                         <ul>
-                            <li><a href="#">Notre Histoire</a></li>
+                            <li><a href="company_history.html">Notre Histoire</a></li>
                             <li><a href="#">Mission & Vision</a></li>
-                            <li><a href="#">Carrières</a></li>
-                            <li><a href="#">Partenaires</a></li>
-                            <li><a href="#">Notre Equipe</a></li>
-                            <li><a href="#">Témoignage</a></li>
+                            <li><a href="partners.html">Partenaires</a></li>
+                            <li><a href="team.html">Notre Equipe</a></li>
+                            <li><a href="testimonial.html">Témoignage</a></li>
 
                         </ul>
                     </div>
@@ -320,11 +319,11 @@
                     <div class="copyright-warp cr-1">
                         <div class="copyright-list-link">
                             <ul>
-                                <li><a href="#">Accueil</a></li>
-                                <li><a href="#">Qui sommes-nous ?</a></li>
-                                <li><a href="#">Nos Services </a></li>
-                                <li><a href="#">Nos Conseillers</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="index.html">Accueil</a></li>
+                                <li><a href="about.html">Qui sommes-nous ?</a></li>
+                                <li><a href="services.html">Nos Services </a></li>
+                                <li><a href="team.html">Nos Conseillers</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                             </ul>
                         </div>
                         <div class="copyright-text">

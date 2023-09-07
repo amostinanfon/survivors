@@ -1,7 +1,6 @@
 
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 	
 <head>
 		<meta charset="utf-8">
@@ -103,6 +102,7 @@
 									<ul>
 										<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 										<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+
 									</ul>
 								</div>
 								</div>
@@ -178,7 +178,7 @@
 					<h3></h3>
 					<ol class="breadcrumb">
  						<li>
- 							<a href="#"><i class="fa fa-home"></i> ACCUEIL     </a>
+ 							<a href="#"><i class="fa fa-home"></i> ACCUEIL </a>
  						</li>
  						
  						<li class="active">CONTACTEZ NOUS</li>
@@ -194,21 +194,23 @@
 							<div class="iconbox-inline">
 								<span class="icon icon-location2"></span>
 								<h4>Siège Social</h4>
-								<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim adesg ens minim veniam.</p>
+								<p>
+									BATCHENGA, REGION DU CENTRE, CMR
+								</p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="iconbox-inline">
 								<span class="icon icon-phone"></span>
 								<h4>Numéro de Téléphone</h4>
-								<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim adesg ens minim veniam.</p>
+								<p>00237 694-291-173</p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="iconbox-inline">
 								<span class="icon icon-envelop"></span>
 								<h4>Adresse Email</h4>
-								<p>Lorem ipsum dolor sit , consectet adipisi elit, sed do eiusmod tempor for enim adesg ens minim veniam.</p>
+								<p>amostinanfon17@gmail.com</p>
 							</div>
 						</div>
 					</div>
@@ -228,20 +230,23 @@
 							</div>
 						</div>
 						<div class="form-contact-warp">
-							<form method="post" action="form.php">
+							<form method="post" action="form.php" id="form">
 								<div class="col-md-4">
-									<input type="text" class="form-control" id="name" name="name" placeholder="Nom" required autocomplete="off">
+									<input type="text" class="form-control" id="name" name="name" placeholder="Nom Complet : Mbende albert" autocomplete="off">
 								</div>
 								<div class="col-md-4">
-									<input type="email" class="form-control" id="email" name="email" placeholder="Email" required autocomplete="off">
+									<input type="email" class="form-control" id="email" name="email" placeholder="Mail : mail@exemple.com" autocomplete="off">
 								</div>
 <!--								<div class="col-md-4">-->
-<!--									<input type="file" class="form-control" id="profile" name="profile" accept="image/*,.pdf" required>-->
+<!--									<input type="number" class="form-control" id="phone" name="phone" placeholder="Tél:00237 694 291 173" required autocomplete="off">-->
 <!--								</div>-->
-								<div class="col-md-4">
-									<input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet" required autocomplete="off">
-								</div>
 
+								<div class="col-md-4">
+									<input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet : Demande inscription" autocomplete="off">
+								</div>
+								<div class="col-md-12">
+									<label><input type="checkbox" required> Lu et accepté les conditions d'utilisations <a href="#" title="Contrat d'adhésion">Cliquez pour lire <strong>le contrat</strong></a></label>
+								</div>
 								<div class="col-md-12">
 									<div class="form-group">
 										<textarea name="comments" id="comments" class="form-control" rows="5" placeholder="Commentaire" required autocomplete="off"></textarea>
@@ -250,9 +255,7 @@
 								<div class="col-md-12">
 									<button type="submit" class="btn-main-color" name="envoyer"><i class="fa fa-paper-plane" aria-hidden="true"></i>  Envoyez </button>
 								</div>
-								<div class="col-md-0">
-									<input type="checkbox" class="form-control" id="" name="subject" required >
-								</div>
+								
 							</form>
 						</div>
 					</div>
@@ -303,7 +306,7 @@
 						<div class="col-md-3 col-sm-6">
 							<div class="widget widget-footer widget-footer-icon-link">
 								<div class="title-block title-on-dark title-xs">
-									<h4>Head Office</h4>
+									<h4>Siège Social</h4>
 									<span class="bottom-title"></span>
 								</div>
 
@@ -399,16 +402,31 @@
 		<script src="js/plugins/jquery.counterup.min.js"></script>
 		<script src="js/plugins/counterup.js"></script>
 	  	<script src='../../maps.googleapis.com/maps/api/js555e?key=&amp;sensor=false&amp;extension=.js'></script>  
-	    <script src="js/plugins/contact.js"></script> 
+	    <script src="js/plugins/contact.js"></script>
+		<script scr="./jquery-validation/dist/jquery.validate.js"></script>
 		<!-- Global Js
 			================================================== --> 
 		<script src="js/plugins/template.js"></script>	
 		<!-- Demo Switcher
 	    ================================================== -->
 	    <script src="switcher/demo.js"></script>
-		
-	</body>
+		<script>
+			$("form").validate({
+				rules: {
+					name:{
+						required: true,
+						minlength: 5
+					},
+					email:{
+						required: true,
+						email: true
+					},
 
-<!-- Mirrored from templates.thememodern.com/amwal/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 23 Aug 2023 12:40:59 GMT -->
-</html>
+				}
+			});
+		</script>
+
+        </body>
+
+    </html>
 
