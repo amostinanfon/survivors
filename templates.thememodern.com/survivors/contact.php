@@ -134,7 +134,7 @@
 							</ul>
 					</li>
 					<li>
-						<a href="services.html">Services </a>
+						<a href="Incubateurs.html">Incubateurs </a>
 					</li>
 					<li>
 						<a href="cases.html">Gallerie</a>
@@ -201,7 +201,7 @@
 										<li><a href="company_history.html">Association</a>
 											<ul class="navi-level-2">
 
-												<li><a href="company_history.html" ><span>Historique</span></a>
+												<li><a href="company_history.html" ><span>contexte</span></a>
 													 
 												</li>
 												<li><a href="about.html" ><span>Qui sommes-nous ?</span></a>
@@ -209,7 +209,7 @@
 											</ul>
 										</li>
 										<li>
-											<a href="services.html">Services </a>
+											<a href="Incubateurs.html">Incubateurs </a>
 										</li>
 										<li>
 											<a href="cases.html">Gallerie</a>
@@ -233,7 +233,8 @@
 			
 			<section class="no-padding sh-contact">
 				<div class="sub-header ">
-					<h3>CONNECTONS NOUS</h3>
+					<span>NOUS REJOINDRE</span>
+					<h3>REMPLIR LE FORMULAIRE</h3>
 				     <?php
                     //    echo '<script type="text/javascript">
                      //          window.onload = function () { alert("Welcome"); } 
@@ -388,7 +389,6 @@
 								</div>
 								<ul>
 									<li><a href="company_history.html">Notre Histoire</a></li>
-									<li><a href="#">Mission & Vision</a></li>
 									<li><a href="partners.html">Partenaires</a></li>
 									<li><a href="team.html">Notre Equipe</a></li>
 									<li><a href="testimonials.html">Temoignages</a></li>
@@ -418,7 +418,7 @@
 									<ul>
 										<li><a href="index.html">Accueil</a></li>
 										<li><a href="about.html">Qui sommes-nous ?</a></li>
-										<li><a href="services.html">Nos Services </a></li>
+										<li><a href="Incubateurs.html">Nos Incubateurs </a></li>
 										<li><a href="team.html">Nos Conseillers</a></li>
 										<li><a href="contact.php">Contact</a></li>
 									</ul>

@@ -61,7 +61,7 @@
 											</ul>
 										</li>
             <li>
-                <a href="services.html">Services </a>
+                <a href="Incubateurs.html">Incubateurs </a>
             </li>
             <li>
                 <a href="cases.html">Gallerie</a>
@@ -149,7 +149,7 @@
 							</ul>
 					</li>
                                     <li>
-                                        <a href="services.html">Services </a>
+                                        <a href="Incubateurs.html">Incubateurs </a>
 
                                     </li>
                                     <li>
@@ -291,8 +291,7 @@
 
                         <ul class="icon-link-list-icon">
                             <li><i class="fa fa-map-marker" aria-hidden="true"></i>YAOUNDE, REGION DU CENTRE, CMR</li>
-                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:admin@amwal.com">contact@associationsurvivors.org</a></li>
-                            <li><i class="fa fa-headphones" aria-hidden="true"></i> <a href="mailto:admin@amwal.com">contact@associationsurvivors.org</a></li>
+                            <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:contact@associationsurvivors.org">contact@associationsurvivors.org</a></li>
                             <li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:00237691386635"> 00237- 694291173</a></li>
                             <li><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:01008431112"> 00237-654046638 </a></li>
 
@@ -337,7 +336,7 @@
                             <ul>
                                 <li><a href="index.html">Accueil</a></li>
                                 <li><a href="about.html">Qui sommes-nous ?</a></li>
-                                <li><a href="services.html">Nos Services </a></li>
+                                <li><a href="Incubateurs.html">Nos Incubateurs </a></li>
                                 <li><a href="team.html">Nos Conseillers</a></li>
                                 <li><a href="contact.php">Contact</a></li>
                             </ul>
