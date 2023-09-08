@@ -35,14 +35,14 @@
                       $mail->isSMTP();
                      $mail->Host = 'smtp.gmail.com';
                       $mail->SMTPAuth = true; 
-                     $mail->Username = 'amostinanfon17@gmail.com';
+                     $mail->Username = 'contact@associationsurvivors.org';
                      $mail->Password = "whqhgrpnlbnzlzed"; 
                     $mail->Port = 465; 
                    $mail->SMTPSecure = 'ssl';
                      $mail->isHTML(true);
                     $mail->setFrom($email, $name);
-                      $mail->addAddress('amostinanfon17@gmail.com');
-                      $mail->addCC('amostinanfon37@gmail.com');
+                      $mail->addAddress('contact@associationsurvivors.org');
+                      $mail->addCC('contact@associationsurvivors.org');
                       $mail->addCC('pasto@associationsurvivors.org');
                       $mail->Subject = ("$email($subject)");
                       $mail->Body = $body;
@@ -117,13 +117,21 @@
 						<a href="index.html">Accueil</a>
 					</li>
 					<li><a href="company_history.html">Association</a>
-						<ul >
+							<ul class="navi-level-2">
 
-							<li><a href="company_history.html" ><span>Historique</span></a>
-							</li>
-							<li><a href="about.html" ><span>Qui sommes-nous ?</span></a>
-							</li>
-						</ul>
+								<li>
+									<a href="company_history.html" ><span>Contexte</span></a>
+								</li>
+								<li>
+									<a href="about.html" ><span>Qui sommes-nous ?</span></a>
+								</li>
+								<li>
+									<a href="company_history.html" ><span>Vision</span></a>
+								</li>
+								<li>
+									<a href="company_history.html" ><span>Objectifs</span></a>
+								</li>
+							</ul>
 					</li>
 					<li>
 						<a href="services.html">Services </a>
@@ -156,9 +164,9 @@
 								<div class="topbar-home2">
 								<div class="tb-contact tb-iconbox">
 									<ul>
-										<li><a href="contact.php"><i class="fa fa-map-marker" aria-hidden="true"></i> BATCHENGA, REGION DU CENTRE, CMR</a></li>
-										<li><a href="mailto:amostinanfon17@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i> amostinanfon17@gmail.com</a></li>
-										<li><a href="tel:00237694291173"><i class="fa fa-phone" aria-hidden="true"></i> 00237694291173</a></li>
+										<li><a href="contact.php"><i class="fa fa-map-marker" aria-hidden="true"></i> YAOUNDE, REGION DU CENTRE, CMR</a></li>
+										<li><a href="mailto:contact@associationr"><i class="fa fa-envelope" aria-hidden="true"></i> contact@associationsurvivors.org</a></li>
+										<li><a href="tel:00237691386635"><i class="fa fa-phone" aria-hidden="true"></i> 00237 691386635 / 677136479</a></li>
 									</ul>
 								</div>
 								<div class="tb-social-lan language">
@@ -209,22 +217,7 @@
 										<li>
 											<a href="news.html">Blog</a>
 										</li>
-										<li>
-											<a href="#">Pages</a>
-											<ul class="navi-level-2">
-												
-												<li><a  href="team.html">Notre Equipe</a>
-												</li>
-												<li >
-													<a  href="testimonials.html">Temoignages</a>
-												</li>
-												
-												<li >
-													<a  href="parteners.html">Partenaires</a>
-												</li>
-												
-											</ul>
-										</li>
+										
 										<li><a href="contact.php">Contact</a></li>
 									</ul>
 								</nav>
@@ -265,7 +258,7 @@
 								<span class="icon icon-location2"></span>
 								<h4>Siège Social</h4>
 								<p>
-									BATCHENGA, REGION DU CENTRE, CMR
+									YAOUNDE, REGION DU CENTRE, CMR
 								</p>
 							</div>
 						</div>
@@ -273,23 +266,21 @@
 							<div class="iconbox-inline">
 								<span class="icon icon-phone"></span>
 								<h4>Numéro de Téléphone</h4>
-								<p>00237 694-291-173</p>
+								<p>00237 691-386-635</p>
+								<p>00237 677-136-479</p>
 							</div>
 						</div>
 						<div class="col-md-4">
 							<div class="iconbox-inline">
 								<span class="icon icon-envelop"></span>
 								<h4>Adresse Email</h4>
-								<p>amostinanfon17@gmail.com</p>
+								<p>contact@associationsurvivors.org</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</section>
-			<!-- /Iconbxo -->
-			<!--<div id="map-canvas" class="map-warp" style="height: 360px;"></div>-->
-			<!-- /Map -->
-
+			
 			<section>
 				<div class="container">	
 					<div class="row">
@@ -369,7 +360,8 @@
 								</p>
 								<ul class="widget widget-footer widget-footer-social-1">
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-	
+									<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+								
 								</ul>
 							</div>
 						</div>
@@ -381,11 +373,10 @@
 								</div>
 
 								<ul class="icon-link-list-icon">
-									<li><i class="fa fa-map-marker" aria-hidden="true"></i>BATCHENGA, REGION DU CENTRE, CMR</li>
-									<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:admin@amwal.com">amostinanfon17@gmail.com</a></li>
-									<li><i class="fa fa-headphones" aria-hidden="true"></i> <a href="mailto:admin@amwal.com">amostinanfon17@gmail.com</a></li>
-									<li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:00237694291173"> 00237- 694291173</a></li>
-									<li><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:01008431112"> 00237-654046638 </a></li>
+									<li><i class="fa fa-map-marker" aria-hidden="true"></i>YAOUNDE, REGION DU CENTRE, CMR</li>
+									<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:contact@associationsurvivors.org">contact@associationsurvivors.org</a></li>
+									<li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:00237691386635"> 00237- 691386635 </a></li>
+									<li><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:00237677136479">00237- 677136479 </a></li>
 								</ul>
 							</div>
 						</div>

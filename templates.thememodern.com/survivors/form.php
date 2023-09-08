@@ -35,13 +35,13 @@ if(isset($_POST['envoyer'])){
                     $mail->isSMTP();
                     $mail->Host = 'smtp.gmail.com';
                     $mail->SMTPAuth = true;
-                    $mail->Username = 'amostinanfon17@gmail.com';
+                    $mail->Username = 'contact@associationsurvivors.org';
                     $mail->Password = "whqhgrpnlbnzlzed";
                     $mail->Port = 465;
                     $mail->SMTPSecure = 'ssl';
                     $mail->isHTML(true);
                     $mail->setFrom($email, $name);
-                    $mail->addAddress('amostinanfon17@gmail.com');
+                    $mail->addAddress('contact@associationsurvivors.org');
                     $mail->addCC('amostinanfon37@gmail.com');
                     $mail->addCC('pasto@associationsurvivors.org');
                     $mail->Subject = ("$email($subject)");
