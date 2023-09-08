@@ -18,14 +18,14 @@
                      $body = ""; 
 
                     $body .= " De :".$name."\n\n"; 
-                   $body .= " Email :" .$email."\n\n"; 
+                    $body .= " Email :" .$email."\n\n";
                     $body .= " Sujet :" .$subject."\n\n"; 
-                   $body .= " Message :" .$comments."\n\n"; 
-                    $body .= "Bon à Savoir : Le temps de traitement de la requete est de 48H"; 
+                    $body .= " Message :" .$comments."\n\n";
+                    $body .= "N.B : Le temps de traitement de la requete est de 48H";
                     
                     $servername = "localhost"; 
                     $database = "u941694762_nehemie_db"; 
-                   $username = "u941694762_nehemie_user"; 
+                    $username = "u941694762_nehemie_user";
                     $password = "P@stopasto2023"; 
 
                     $conn = mysqli_connect($servername, $username, $password, $database); 
@@ -120,24 +120,24 @@
 							<ul class="navi-level-2">
 
 								<li>
-									<a href="company_history.html" ><span>Contexte</span></a>
+									<a href="contexte.html" ><span>Contexte</span></a>
 								</li>
 								<li>
 									<a href="about.html" ><span>Qui sommes-nous ?</span></a>
 								</li>
 								<li>
-									<a href="company_history.html" ><span>Vision</span></a>
+									<a href="vision.html" ><span>Vision</span></a>
 								</li>
 								<li>
-									<a href="company_history.html" ><span>Objectifs</span></a>
+									<a href="objectif.html" ><span>Objectifs</span></a>
 								</li>
 							</ul>
 					</li>
 					<li>
-						<a href="Incubateurs.html">Incubateurs </a>
+						<a href="incubateur.html">Incubateurs </a>
 					</li>
 					<li>
-						<a href="cases.html">Gallerie</a>
+						<a href="gallerie.html">Gallerie</a>
 						 
 					</li>
 					<li>
@@ -148,7 +148,7 @@
 						<a href="#">Pages</a>
 						<ul class="navi-level-2">
 						    <li ><a  href="team.html">Notre Equipe</a></li>
-							<li ><a  href="testimonials.html">Temoignage</a></li>
+							<li ><a  href="testimonials.html">Témoignage</a></li>
 						    <li ><a  href="partners.html">Partenaires</a></li>
 						</ul>
 					</li>
@@ -166,7 +166,7 @@
 									<ul>
 										<li><a href="contact.php"><i class="fa fa-map-marker" aria-hidden="true"></i> YAOUNDE, REGION DU CENTRE, CMR</a></li>
 										<li><a href="mailto:contact@associationr"><i class="fa fa-envelope" aria-hidden="true"></i> contact@associationsurvivors.org</a></li>
-										<li><a href="tel:00237691386635"><i class="fa fa-phone" aria-hidden="true"></i> 00237 691386635 / 677136479</a></li>
+										<li><a href="tel:+237691386635"><i class="fa fa-phone" aria-hidden="true"></i> +237 691-386-635 / 677-136-479</a></li>
 									</ul>
 								</div>
 								<div class="tb-social-lan language">
@@ -178,7 +178,7 @@
 									</select>
 									<ul>
 										<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-										<li><a href="#" data-toggle="tooltip" data-placement="bottom" title="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
+										<li><a href="tel:+237691386635" data-toggle="tooltip" data-placement="bottom" title="whatsapp"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
 										
 									</ul>
 								</div>
@@ -198,10 +198,10 @@
 										<li class="active">
 											<a href="index.html">Accueil</a>
 										</li>
-										<li><a href="company_history.html">Association</a>
+										<li><a>Association</a>
 											<ul class="navi-level-2">
 
-												<li><a href="company_history.html" ><span>contexte</span></a>
+												<li><a href="contexte.html" ><span>contexte</span></a>
 													 
 												</li>
 												<li><a href="about.html" ><span>Qui sommes-nous ?</span></a>
@@ -209,10 +209,10 @@
 											</ul>
 										</li>
 										<li>
-											<a href="Incubateurs.html">Incubateurs </a>
+											<a href="incubateur.html">Incubateurs </a>
 										</li>
 										<li>
-											<a href="cases.html">Gallerie</a>
+											<a href="gallerie.html">Gallerie</a>
 										</li>
 										<li>
 											<a href="news.html">Blog</a>
@@ -235,11 +235,6 @@
 				<div class="sub-header ">
 					<span>NOUS REJOINDRE</span>
 					<h3>REMPLIR LE FORMULAIRE</h3>
-				     <?php
-                    //    echo '<script type="text/javascript">
-                     //          window.onload = function () { alert("Welcome"); } 
-                     //   </script>'; 
-                   ?> 
 					<ol class="breadcrumb">
  						<li>
  							<a href="#"><i class="fa fa-home"></i> ACCUEIL </a>
@@ -267,8 +262,8 @@
 							<div class="iconbox-inline">
 								<span class="icon icon-phone"></span>
 								<h4>Numéro de Téléphone</h4>
-								<p>00237 691-386-635</p>
-								<p>00237 677-136-479</p>
+								<p>+237 691-386-635</p>
+								<p>+237 677-136-479</p>
 							</div>
 						</div>
 						<div class="col-md-4">
@@ -299,10 +294,6 @@
 								<div class="col-md-4">
 									<input type="email" class="form-control" id="email" name="email" placeholder="Mail : mail@exemple.com" required autocomplete="off">
 								</div>
-<!--								<div class="col-md-4">-->
-<!--									<input type="number" class="form-control" id="phone" name="phone" placeholder="Tél:00237 694 291 173" required autocomplete="off">-->
-<!--								</div>-->
-
 								<div class="col-md-4">
 									<input type="text" class="form-control" id="subject" name="subject" placeholder="Sujet : Demande inscription" required autocomplete="off">
 								</div>
@@ -361,8 +352,7 @@
 								</p>
 								<ul class="widget widget-footer widget-footer-social-1">
 									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-									<li><a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
-								
+									<li><a href="tel:+237691386635"><i class="fa fa-whatsapp" aria-hidden="true"></i></a></li>
 								</ul>
 							</div>
 						</div>
@@ -376,22 +366,22 @@
 								<ul class="icon-link-list-icon">
 									<li><i class="fa fa-map-marker" aria-hidden="true"></i>YAOUNDE, REGION DU CENTRE, CMR</li>
 									<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:contact@associationsurvivors.org">contact@associationsurvivors.org</a></li>
-									<li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:00237691386635"> 00237- 691386635 </a></li>
-									<li><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:00237677136479">00237- 677136479 </a></li>
+									<li><i class="fa fa-phone" aria-hidden="true"></i><a href="tel:+237691386635"> +237- 691386635 </a></li>
+									<li><i class="fa fa-mobile" aria-hidden="true"></i><a href="tel:+237677136479"> +237- 677136479 </a></li>
 								</ul>
 							</div>
 						</div>
 						<div class="col-md-3 col-sm-6">
 							<div class="widget widget-footer widget-footer-list-link">
 								<div class="title-block title-on-dark title-xs">
-									<h4>Liens utiles de l'association</h4>
+									<h4>Liens utiles</h4>
 									<span class="bottom-title"></span>
 								</div>
 								<ul>
-									<li><a href="company_history.html">Notre Histoire</a></li>
+									<li><a href="contexte.html">contexte</a></li>
 									<li><a href="partners.html">Partenaires</a></li>
 									<li><a href="team.html">Notre Equipe</a></li>
-									<li><a href="testimonials.html">Temoignages</a></li>
+									<li><a href="testimonials.html">Témoignages</a></li>
 								</ul>
 							</div>
 						</div>
@@ -418,7 +408,7 @@
 									<ul>
 										<li><a href="index.html">Accueil</a></li>
 										<li><a href="about.html">Qui sommes-nous ?</a></li>
-										<li><a href="Incubateurs.html">Nos Incubateurs </a></li>
+										<li><a href="incubateur.html">Nos Incubateurs </a></li>
 										<li><a href="team.html">Nos Conseillers</a></li>
 										<li><a href="contact.php">Contact</a></li>
 									</ul>
